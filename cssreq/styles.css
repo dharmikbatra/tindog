@@ -1,0 +1,139 @@
+h1{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title{
+  background-color: #ff4c68;
+  font-family: 'Ubuntu', sans-serif;
+  color:#fff;
+  position: relative;
+  /* z-index: -1; */
+
+}
+.container-fluid{
+  padding: 3% 15% 3% 15%;
+}
+/*navigation*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family:'Ubantu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light'
+}
+.row{
+  margin-bottom: 0;
+
+}
+.press-logo{
+  padding:0 4%;
+  width:100px;;
+}
+/* download buttons */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* title image */
+.rotateass{
+  transform:rotate(25deg);
+  height: 550px;
+margin-left: 20%;}
+
+#features{
+  padding:7% 15%;
+  position:relative;
+  background-color: #fff;
+  z-index: 0;
+  margin-top: -160px;
+}
+.iconi{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+}
+.lightp{
+  color: #8f8f8f;
+  font-weight:lighter;
+  padding: 0 20%;
+}
+.iconi:hover{
+  color:#ff4c68;
+}
+/* testimonial section */
+#testimonials{
+  color:#fff;
+  text-align: center;
+  background-color: #ef8172;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testi-img{
+  width:20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  height:40px;
+  width: auto;
+  padding-bottom: 10px;}
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 2% 3%;
+}
+#cta{
+  background-color:#ff4c68;
+  font-size: 200%;
+  text-align: center;
+}
+.badi{
+  font-size: 170%;
+  padding:5% 10%;
+}
+/* footer */
+#footer{
+  background-color: #fff;
+  text-align:center;
+  padding: 5% 0;
+}
+.lasti{
+  margin:1px 7px 0 7px;
+}
+
+@media (max-width:991px) {
+    .extra{
+      text-align: center;
+    }
+    body{
+      font-size: 70%;
+    }
+
+}
+/* cta */
